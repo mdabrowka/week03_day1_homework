@@ -37,7 +37,7 @@ WHERE name = 'Marta Dabrowka';
 DELETE FROM movies
 WHERE title = 'Batman Begins';
 6. Create a new entry in the 'people' table with the name of one of the instructors.
-NSERT INTO people (name) VALUES ('Jarrod Beannie');
+INSERT INTO people (name) VALUES ('Jarrod Beannie');
 7. Craig Morton, has decided to hijack our movie evening, Remove him from the table of people.
 DELETE FROM people
 WHERE name = 'Craig Morton';
@@ -59,3 +59,4 @@ WHERE id = 11;
 ## Extension
 
 1. Research how to delete multiple entries from your table in a single command.
+ DELETE FROM table WHERE id IN (?,?,?,?,?,?,?,?)
